@@ -1,7 +1,7 @@
 {
   "name": "grunt-blog-generator",
   "description": "generate a blog website automatically",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "homepage": "https://github.com/grepug/grunt-blog-generator",
   "author": {
     "name": "GrePuG",
@@ -42,5 +42,16 @@
   "readmeFilename": "README.md",
   "_id": "grunt-blog-generator@0.1.0",
   "_shasum": "cd8544c7a4fd7b109f5cdeabde53095d9b689e5a",
-  "_from": "grunt-blog-generator@*"
+  "_from": "grunt-blog-generator@*",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "copy-dir": "0.0.7",
+    "escape-html": "^1.0.1",
+    "express": "^4.12.3",
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "jade": "^1.9.2",
+    "marked": "^0.3.3",
+    "watch": "^0.16.0"
+  }
 }
